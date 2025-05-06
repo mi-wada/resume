@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: reviewdog/action-markdownlint@3667398db9118d7e78f7a63d10e26ce454ba5f58 # v0.26.2
+        with:
+          fail_level: error
