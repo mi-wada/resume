@@ -90,7 +90,7 @@
 - プログラミング言語:
   - 得意: Go, TypeScript, Ruby
   - 経験あり: Terraform, Rust, Python, C, C++
-- フレームワーク・ライブラリ: Ruby on Rails, React, Next.js, Gin, Echo, Chi, sqlc
+- フレームワーク・ライブラリ: Ruby on Rails, React, React Router(Remix), Next.js, Gin, Echo, sqlc
 - データベース: MySQL
 - インフラストラクチャ: AWS (EKS, EC2, S3, RDS, ElastiCache, SQS), Kubernetes, Argo CD, Vault, Terraform, Docker
 - CI/CD: GitHub Actions, Circle CI
