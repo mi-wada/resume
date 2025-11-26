@@ -4,13 +4,3 @@ updates:
     directory: /
     schedule:
       interval: weekly
-  - package-ecosystem: gomod
-    directories:
-      - /omikuji
-      - /ui
-    schedule:
-      interval: weekly
-  - package-ecosystem: terraform
-    directory: /terraform
-    schedule:
-      interval: weekly
