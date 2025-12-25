@@ -104,6 +104,7 @@
 
 ## 資格・認定
 
+- 2025: データベーススペシャリスト試験（IPA） 合格
 - 2020: AtCoder 緑（1048）
   - <https://atcoder.jp/users/mitsuaki>
 - 2017: 基本情報技術者試験（IPA） 合格
